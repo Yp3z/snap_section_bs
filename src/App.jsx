@@ -3,6 +3,9 @@ import { Header } from './components/Header'
 import { Home } from './pages/Home'
 import { Careers } from './pages/Careers'
 import { Cards } from './pages/Cards'
+import { Built } from './pages/Built'
+import { Ready } from './pages/Ready'
+
 
 export const App = () => {
   return (
@@ -11,6 +14,10 @@ export const App = () => {
     <Home/>
     <Careers/>
     <Cards/>
+    <Built/>
+    <Ready/>
+
+
 
     </>
   )
