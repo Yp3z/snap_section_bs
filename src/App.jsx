@@ -5,6 +5,7 @@ import { Careers } from './pages/Careers'
 import { Cards } from './pages/Cards'
 import { Built } from './pages/Built'
 import { Ready } from './pages/Ready'
+import { About } from './pages/About'
 
 
 export const App = () => {
@@ -16,8 +17,7 @@ export const App = () => {
     <Cards/>
     <Built/>
     <Ready/>
-
-
+    <About/>
 
     </>
   )
