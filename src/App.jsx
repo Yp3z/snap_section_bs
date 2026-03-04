@@ -6,6 +6,7 @@ import { Cards } from './pages/Cards'
 import { Built } from './pages/Built'
 import { Ready } from './pages/Ready'
 import { About } from './pages/About'
+import { Login } from './pages/Login'
 
 
 export const App = () => {
@@ -18,6 +19,7 @@ export const App = () => {
     <Built/>
     <Ready/>
     <About/>
+    <Login/>
 
     </>
   )
