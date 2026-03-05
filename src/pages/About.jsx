@@ -15,11 +15,11 @@ export const About = () => {
 
                         </div>
 
-                        <div class="col-6 bg-primary text-white shadow-lg p-3 rounded">
+                        <div class="col-6 bg-primary text-white shadow-lg p-5 rounded">
                             <h3 className='mt-3 ms-5'>Monthly Subscription</h3>
                             <h1 className='ms-5'>$29 <h4>per month</h4> </h1>
                             <p className='ms-5'>Full access for less than $1 a day</p>
-                            <button className='ms-5' type="button" class="btn btn-success">Sign Up</button>
+                            <button className='ms-5' type="button" class="btn btn-success w-100">Sign Up</button>
                         </div>
                         <div class="col-6 bg-info shadow-lg p-3 rounded text-white">
                             <h3 className='mt-3 ms-5'>Why Us</h3>
