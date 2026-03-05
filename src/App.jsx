@@ -7,6 +7,7 @@ import { Built } from './pages/Built'
 import { Ready } from './pages/Ready'
 import { About } from './pages/About'
 import { Login } from './pages/Login'
+import { Register } from './pages/Register'
 
 
 export const App = () => {
@@ -20,7 +21,7 @@ export const App = () => {
     <Ready/>
     <About/>
     <Login/>
-
+    <Register/>
     </>
   )
 }

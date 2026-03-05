@@ -26,7 +26,7 @@ export const Home = () => {
                     <div className="col-6">
                         <div className="">
 
-                                <img src="./public/ratas.png"  className="img-cropped" alt="" />
+                                <img src="./public/ratas.png"  className="img-cropped mt-5" alt="" />
                             </div>
                     </div>
                 </div>
