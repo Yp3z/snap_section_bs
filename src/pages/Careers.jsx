@@ -22,6 +22,51 @@ export const Careers = () => {
                         </div>
                     </div>
                 </div>
+
+        <h1 className='container text-center mt-5'>What you'll get</h1>
+
+<div class="container mt-5">
+  <div class="row align-items-start">
+    <div class="col">
+        <img src="./public/mouse.png" alt="" height="50" />
+      <h3 class="text-start mt-3" >Whole-food recipies</h3>
+      <p class="text-start">Lorem ipsum dolor sit amet consectetur, adipisicing elit!</p>
+    </div>
+    <div class="col">
+        <img src="./public/fox.png" alt="" height="50"/>
+      <h3 class="text-start mt-3">Minimus Fuss</h3>
+        <p class="text-start">Lorem ipsum dolor sit amet consectetur, adipisicing elit!</p>
+    </div>
+    <div class="col">
+        <img src="./public/hamster.png" alt="" height="50"/>
+      <h3 class="text-start mt-3">Search in Seconds</h3>
+        <p class="text-start">Lorem ipsum dolor sit amet consectetur, adipisicing elit!</p>
+    </div>
+  </div>
+</div>
+
+<div>
+        <div class="p-3 mb-2 bg-secondary text-white text-center mt-5">
+            <h1>Ready to cook smarter?</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <button type="button" class="btn btn-success">Success</button>
+        </div>
+
+            <div className="rounded float-end p-3 mb-2">
+            <img className='ms-2' src="./public/twitter.png" alt="" height="20"/>
+            <img className='ms-2' src="./public/tik-tok.png" alt="" height="20" />
+            <img className='ms-2' src="./public/star.png" alt="" height="20" />
+            </div>
+
+</div>
+        <div>
+            <p className="mt-3 ms-5">Made with ❤️ and 🥑</p>
+        </div>
+
+        <div>
+
+        </div>
+
             </div>
         </>
     )

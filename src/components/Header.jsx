@@ -1,14 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const Header = () => {
-  return (
+  return ( 
     <>
 
 
     <div className='container'>
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container">
-    <a className="navbar-brand" href="#">SNAP</a>
+    <Link className="navbar-brand" to="/">Snap</Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -39,17 +40,21 @@ export const Header = () => {
         </li>
 
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Careers</a>
+
+          <Link className="nav-link" to="/careers">Careers</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">About</a>
+
+          <Link className="nav-link" to="/about">About</Link>
         </li>
         <li className="nav-item">
         </li>
       </ul>
     </div>
-    <button type="button" className="btn text-secondary">Login</button>
-    <button type="button" className="btn text-secondary">Register</button>
+
+    <Link className="btn text-secondary" to="/login">Login</Link>
+
+    <Link className="btn text-secondary" to="/register">Register</Link>
   </div>
 </nav>
     </div>

@@ -2,26 +2,28 @@ import React from 'react'
 import { Header } from './components/Header'
 import { Home } from './pages/Home'
 import { Careers } from './pages/Careers'
-import { Cards } from './pages/Cards'
-import { Built } from './pages/Built'
-import { Ready } from './pages/Ready'
+
 import { About } from './pages/About'
 import { Login } from './pages/Login'
 import { Register } from './pages/Register'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 
 export const App = () => {
   return (
     <>
+    <BrowserRouter>
     <Header/>
-    <Home/>
-    <Careers/>
-    <Cards/>
-    <Built/>
-    <Ready/>
-    <About/>
-    <Login/>
-    <Register/>
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/careers" element={<Careers/>}/>
+      <Route path="/about" element={<About/>}/>
+      <Route path="/login" element={<Login/>}/>
+      <Route path="/register" element={<Register/>}/>
+    </Routes>
+
+   
+    </BrowserRouter>
     </>
   )
 }
